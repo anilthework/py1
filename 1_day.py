@@ -14,6 +14,6 @@ print ("hello" + " " + "anil")
 
 # indentation error: kod satır veya tab ilerde olması durumu
 # code intelligence ile
-  print("hello")
+print("hello")
 
 print("hello " + input('what is your name?'))
