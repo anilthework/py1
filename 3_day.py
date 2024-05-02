@@ -203,3 +203,5 @@ if choice1 == "left":
         print("yine gameover")
 else:
     print("gameover")
+
+
