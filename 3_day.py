@@ -4,7 +4,7 @@ number = int(input("give a number: "))
 if number % 2 == 0:
     print("this is a even number")
 else:
-    print("this is an oldd number")
+    print("this is an odd number")
 
 #####31
 
@@ -174,5 +174,32 @@ elif (love_score >= 40) and (love_score <=50):
 else:
     print(f"your score is {love_score}")
 
+#kolay örnek
+anil = input("whats ur name? \n")
+lowerc = anil.lower()
+print(lowerc)
+x = lowerc.count("x")
+print(x)
 
 #####38
+
+#treasure island
+
+print("welcome to treasure island")
+choice1 = input("choose right or left").lower()
+if choice1 == "left":
+    choice2 = input("wait or swim?").lower()
+    if choice2 == "wait":
+        choice3 = input("red yellow blue ?").lower()
+        if choice3 == "red":
+            print( "3.de gameover")
+        elif choice3 == "yellow":
+            print("you WIN!")
+        elif choice3 == "blue":
+            print("bu da gameover..")
+        else:
+            print("yanlis bisey sectin yine game ooover")
+    else:
+        print("yine gameover")
+else:
+    print("gameover")
